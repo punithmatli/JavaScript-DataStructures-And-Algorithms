@@ -5,7 +5,6 @@ function hasPairWithSum(arr, sum) {
 			return true
 		}
 		mySet.add(sum - arr[i])
-		console.log(mySet.size)
 	}
 	return false
 }
